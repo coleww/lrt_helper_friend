@@ -5,6 +5,8 @@ LRT FRIEND
 
 Will hopefully eventually work on web twitter and tweetdeck =^.^=
 
+![demo.gif](/demo.gif)
+
 ##### TODO
 - test on tweetdeck
 - fix padding on twitter embed
