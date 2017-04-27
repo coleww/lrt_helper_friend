@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "LRT friend",
+  "version": "0.1",
+  "description": "tries to find the RT for any LRT it yr TL",
+
+
+  "permissions": ["https://twitter.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["overrides.css"],
+      "js": ["overrides.js"]
+    }
+  ]
+}
